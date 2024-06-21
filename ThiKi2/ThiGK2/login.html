@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bài thi Web giữa kì 2</title>
+    <head>
+        <title>Bài thi Web giữa kì 2</title>
+        <style>
+            #wrap {
+                position: relative;
+                width: 600px;
+                height: 600px;
+                margin: 0 auto;
+                margin-top: -650px; 
+                border: 2px solid black;
+                background-color: rgb(255, 255, 255);
+                border-radius: 20px;
+            }
+            #continer {
+                width: 300px;
+                height: 200px;
+                margin-top: 180px;
+                position: absolute;
+            }
+            input[type="text"]{
+                    Width: 500px;
+                    height: 25px;
+                    margin-left: 50px;
+                    margin-top: 15px;
+            }
+            input[type="password"]{
+                    Width: 500px;
+                    height: 25px;
+                    margin-left: 50px;
+                    margin-top: 15px;
+            }
+            label{
+                margin-right: 540px;
+                margin-top: 20px;
+                position: absolute;
+                right: 0;
+            }   
+            input[type="submit"]{
+                    background-color: white;
+                    width: 500px;
+                    height: 40px;
+                    color: red;
+                    border: none;
+                    border-radius: 5px;
+                    border: 1px solid red;
+                    cursor: pointer;
+                    margin-top: 360px;
+                    margin-left: 50px;
+                    box-shadow: 5px 5px 10px 5px rgba(161, 53, 250, 0.75);
+                    font-size: 20px;
+                } 
+            #quenmk{
+                width: 150px;
+                position: absolute;
+                margin-left: 100px;
+                margin-top: 380px;
+            }  
+            #maunen {
+                background-color: yellow; 
+            }
+            #form {
+                width: 600px;
+                height: 50px;
+                margin-top: 50px;
+    
+            }
+            #hoac {
+                width: 250px;
+                position: absolute;
+                margin-top:350px;
+                margin-left: 185px;
+            }
+            .btn {
+                position: absolute;
+                background-color: rgb(119, 37, 37); 
+                border: none; 
+                color: white; 
+                padding: 12px 24px;
+                font-size: 15px; 
+                cursor: pointer; 
+                margin-top: 20px;
+                margin-left: 300px;
+                border-radius: 10px;
+                width: 200px;
+                }
+            .btn1 {
+                position: absolute;
+                background-color: blue; 
+                border: none; 
+                color: white; 
+                padding: 12px 30px;
+                font-size: 15px; 
+                cursor: pointer; 
+                margin-top: 20px;
+                margin-left: 20px;
+                border-radius: 10px;
+                width: 200px;
+                }
+             #form2 {
+                width: 600px;
+                height: 100px;
+                margin-top: -100px; 
+                margin-left: 500px;
+             } 
+            #formnen {
+                width: 100%;
+            } 
+            .anhnen {
+                width: 1500px;
+                height: 700px;
+            }  
+            .text{
+                color: violet;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+                
+            }
+            #formlogin {
+                width: 900px;
+                height: 50px;
+                margin-top: 140px;
+                position: absolute;
+                margin-left: -150px;
+            }
+            .logo {
+                position: absolute;
+                width: 80px;
+                height: 20px;
+                margin-top: 10px;
+                margin-left:   200px;
+            }
+         
+            #taikhoan{
+                width: 100px;
+                height: 20px;
+                margin-left: 50px;
+                margin-top: 30px;
+            }
+            #matkhau{
+                width: 100px;
+                height: 20px;
+                margin-left: 50px;
+                margin-top: 20px;
+            }
+            #ghi{
+                width: 100px;
+                height: 20px;
+                margin-left: 380px;
+                margin-top: -30px;
+            }
+            input[type="checkbox"] {
+                margin-left: 350px;
+                margin-top: -100px;
+            }
+
+        </style>
+    </head>
+</head>
+<body>
+    <div id="formnen">
+        <img src="IMG_20150902_165726.jpg" class="anhnen">
+        
+        <div id="wrap">
+            <div class="logo" >
+            <img src="letter-p.png" height="150px" width="150px">
+            </div>
+            <div id="formlogin"> 
+            <div class="text">
+            <h1><center> Đăng Nhập hệ thống </center> </h1>
+            </div>
+            </div>
+        <div id="continer">
+            <div id="taikhoan"><b>Tài khoản<b></div>
+            <label for="tendangnhap"></label>
+            <input type="text" id="username"  placeholder="TTài khoản hoặc email" required>
+            <div id="matkhau">Mật khẩu</div>
+            <label for="matkhau"></label>
+            <input type="password" id="password"  placeholder="Mật khẩu" required>
+        </div>    
+        <div id="quenmk">
+                Quên mật khẩu?
+                <input type="checkbox" id="ghinho"> <div id="ghi"> Ghi nhớ</div>
+        </div>
+        <div id="form">
+                <form action="/submit" method="post">
+                    <input type="submit" value="Đăng nhập">
+                </form>
+            </div>
+            <div id="hoac"><h2> Hoặc đăng nhập với </h2></div>
+    
+    
+            </div>
+            <div id="form2">
+                <button class="btn" type="submit"> <img src="google.png" height="20px" >  Google  </button>
+                <button class="btn1" type="submit"> <img src="facebook.png" height="20px"> Facebook </button>
+            </div>
+          
+        </div>
+    </div>   
+</body>
+</html>
